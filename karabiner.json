@@ -156,13 +156,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_unless",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241,
-                                                "product_id": 8209
+                                                "product_id": 8209,
+                                                "vendor_id": 1241
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_unless"
                                     }
                                 ],
                                 "from": {
@@ -192,32 +192,6 @@
                             {
                                 "from": {
                                     "key_code": "caps_lock",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "escape"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Post escape if left_control is pressed alone.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "left_control",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -743,13 +717,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241,
-                                                "product_id": 8209
+                                                "product_id": 8209,
+                                                "vendor_id": 1241
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
@@ -770,13 +744,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241,
-                                                "product_id": 8209
+                                                "product_id": 8209,
+                                                "vendor_id": 1241
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
@@ -797,13 +771,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241,
-                                                "product_id": 8209
+                                                "product_id": 8209,
+                                                "vendor_id": 1241
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
@@ -824,13 +798,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241,
-                                                "product_id": 8209
+                                                "product_id": 8209,
+                                                "vendor_id": 1241
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
