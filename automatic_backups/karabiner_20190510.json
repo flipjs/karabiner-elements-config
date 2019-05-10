@@ -647,11 +647,11 @@
                         ]
                     },
                     {
-                        "description": "Change right_command + n to backtick",
+                        "description": "Change right_command + k to backtick",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command"
@@ -1589,11 +1589,11 @@
                         ]
                     },
                     {
-                        "description": "Change right_command + n to backtick",
+                        "description": "Change right_command + k to backtick",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command"
@@ -2384,11 +2384,11 @@
                         ]
                     },
                     {
-                        "description": "Change right_command + n to backtick",
+                        "description": "Change right_command + k to backtick",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command"
