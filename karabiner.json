@@ -1475,27 +1475,6 @@
                         ]
                     },
                     {
-                        "description": "Change caps_lock to control",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "caps_lock",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Change right_command + wasd to arrow keys",
                         "manipulators": [
                             {
